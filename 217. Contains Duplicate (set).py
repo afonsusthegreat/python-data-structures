@@ -5,4 +5,4 @@ class Solution:
             if i in seen:  # se o elemento estiver em 'seen':
                 return True  # retorna verdadeiro
             seen.add(i)  # adiciona o elemento a seen
-        return False
+        return False  # penis
