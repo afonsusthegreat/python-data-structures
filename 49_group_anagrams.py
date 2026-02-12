@@ -16,4 +16,3 @@ class Solution:
         for key in group:
             lista_final.append(group[key])
         return lista_final
-
