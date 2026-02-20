@@ -1,6 +1,6 @@
 def busca(nums, alvo):
     esq = 0
-    dir = len(nums) + 1
+    dir = len(nums) - 1
     while esq <= dir:
         meio = (esq + dir) // 2
 
