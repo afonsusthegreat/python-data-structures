@@ -16,7 +16,8 @@ def permutationInString(string1, string2):
             esquerda += 1
             direita += 1
             if direita < len(string2):
-                contagem2[string2[direita]] = contagem2.get(string2[direita], 0) + 1
+                char = string2[direita]
+                contagem2[char] = contagem2.get(char, 0) + 1
             """provavelmente tem maneira mais elegante,
                 mas isso já garante O(n)"""
     return False
